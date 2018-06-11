@@ -16,4 +16,4 @@ test:
 
 production:
   <<: *default
-  url: postgres://kfqvmxlfmthzad:1047f8fa70912f0368cbf72f6211d88706652883fd90b98170e29784d97dece9@ec2-54-83-59-120.compute-1.amazonaws.com:5432/de10007ti89imv
+  url: postgres://nehvhwyvjqbarw:5bfd1857ae827c4d89833eb7428afa4527174fc7cee533791dc48ccc9b0d12cb@ec2-54-83-59-120.compute-1.amazonaws.com:5432/d4p6t91udt48ur
