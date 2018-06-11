@@ -15,7 +15,10 @@ test:
   database: bookstore-backend_test
 
 production:
-  database: de10007ti89imv
-  username: kfqvmxlfmthzad
-  password: 1047f8fa70912f0368cbf72f6211d88706652883fd90b98170e29784d97dece9
-  url: postgres://kfqvmxlfmthzad:1047f8fa70912f0368cbf72f6211d88706652883fd90b98170e29784d97dece9@ec2-54-83-59-120.compute-1.amazonaws.com:5432/de10007ti89imv
+  url: <%= ENV['DATABASE_URL'] %>
+  #
+  # database: de10007ti89imv
+  # username: kfqvmxlfmthzad
+  # password: 1047f8fa70912f0368cbf72f6211d88706652883fd90b98170e29784d97dece9
+  # url: postgres://kfqvmxlfmthzad:1047f8fa70912f0368cbf72f6211d88706652883fd90b98170e29784d97dece9@ec2-54-83-59-120.compute-1.amazonaws.com:5432/de10007ti89imv
+  # 
